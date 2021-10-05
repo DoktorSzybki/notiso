@@ -1,0 +1,23 @@
+{
+  "name": "notiso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ioredis": "^4.27.1",
+    "@types/node-fetch": "^2.5.12",
+    "@types/web-push": "^3.3.2",
+    "dotenv": "^10.0.0",
+    "firebase-admin": "^9.11.1",
+    "ioredis": "^4.27.8",
+    "node-fetch": "^2.6.1",
+    "socket.io": "^4.2.0",
+    "web-push": "^3.4.5"
+  }
+}
