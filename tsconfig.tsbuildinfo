@@ -522,7 +522,7 @@
         "affectsGlobalScope": false
       },
       "./src/connectors/socketio.ts": {
-        "version": "a7b822f026f81f110d093f5aefb63daebfd43f38f6eec21d2c76a5f7d8663b4b",
+        "version": "edfbb993e05dc72b812792d18800a7170381ee8a2dc2e53d3e1c7f43a8efe202",
         "signature": "7e8ef3aac92f02ade1d7026f3bb21d1ca5f2e2d7e26a9c7017820bb7dd856b28",
         "affectsGlobalScope": false
       },
