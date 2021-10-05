@@ -21,4 +21,4 @@ socketio_1.io.on("connection", function (socket) {
         socket.leave(room);
     });
 });
-socketio_1.httpServer.listen(process.env.PORT);
+socketio_1.httpServer.listen(process.env.PORT, function () { return console.log("success"); });
