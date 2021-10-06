@@ -7,7 +7,7 @@ redis.subscribe("event", (error, count) => {
 		console.error("Failed to subscribe");
 		console.log(error)
 	} else {
-		console.log("Success")
+		console.log("Success on redis subscribe")
 	}
 });
 

@@ -532,7 +532,7 @@
         "affectsGlobalScope": false
       },
       "./src/connectors/redis.ts": {
-        "version": "c671290a556b5397821a7a45fcb57743ef3ffb685ec6687d905b711c54f657a9",
+        "version": "2f354a27e58a5bb9fb4b661e4b811298b2922e6d015c724af1ed8ff22b11428e",
         "signature": "50147b58eef6d91646ffe3a16b7acb586f9837d4c79cd610b5e79f6b47b894ee",
         "affectsGlobalScope": false
       },
@@ -569,11 +569,6 @@
       "./src/app.ts": {
         "version": "261b962a77a399bea5c316e70c738c6f4152960b8124895d6ec6cf4a7a2a9768",
         "signature": "8c441990eaaead2962a0a76f229ab1a2eef3691cff7d9a98ca656bcd3d643bc1",
-        "affectsGlobalScope": false
-      },
-      "./src/listeners/eventobserver.ts": {
-        "version": "bb8118af4d98dc19c7f2ce55fc5a25186283b6e0c1c49e939843f4a111c209d7",
-        "signature": "1d77d2d3b878f758aed505f0bcf26434f25d6800545ab6102755dd515d2ec196",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/connect/index.d.ts": {
@@ -1279,12 +1274,6 @@
         "./node_modules/@types/node/http.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/socket.io/dist/index.d.ts"
-      ],
-      "./src/listeners/eventobserver.ts": [
-        "./node_modules/@types/ioredis/index.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./src/connectors/socketio.ts",
-        "./src/models/event.ts"
       ],
       "./src/listeners/initobserver.ts": [
         "./node_modules/@types/node/util.d.ts",
@@ -2040,7 +2029,6 @@
       "./src/auth/verify.ts",
       "./src/connectors/redis.ts",
       "./src/connectors/socketio.ts",
-      "./src/listeners/eventobserver.ts",
       "./src/listeners/initobserver.ts",
       "./src/models/event.ts"
     ]
