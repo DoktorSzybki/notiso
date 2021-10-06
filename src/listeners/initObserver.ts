@@ -15,7 +15,8 @@ export async function initObserver(socket: Socket, data: any) {
 			})
 		}
 		socket.emit("success")
-	} catch (error) {
+		} catch (error) {
+		console.log("failed to auth")
 		socket.emit("error")
 		return
 	}

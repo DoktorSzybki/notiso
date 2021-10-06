@@ -5,8 +5,11 @@ var http_1 = require("http");
 var socket_io_1 = require("socket.io");
 exports.httpServer = http_1.createServer();
 exports.io = new socket_io_1.Server(exports.httpServer, {
+    path: "/socketio/",
+    allowEIO3: true,
     cors: {
-        origin: "*",
-        methods: ["GET", "POST"]
+        origin: "https://wieltonmobiledev.azureedge.net",
+        methods: ["GET", "POST"],
+        credentials: true
     }
 });
