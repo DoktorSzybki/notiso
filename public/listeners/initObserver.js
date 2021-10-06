@@ -61,12 +61,14 @@ function initObserver(socket, data) {
                             }
                         });
                     }
+                    console.log("established connection");
                     socket.emit("success");
                     return [3 /*break*/, 5];
                 case 4:
                     error_1 = _a.sent();
                     console.log("failed to auth");
                     socket.emit("error");
+                    socket.disconnect(true);
                     return [2 /*return*/];
                 case 5: return [2 /*return*/];
             }

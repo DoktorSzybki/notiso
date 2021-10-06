@@ -14,10 +14,12 @@ export async function initObserver(socket: Socket, data: any) {
 				}
 			})
 		}
+		console.log("established connection")
 		socket.emit("success")
-		} catch (error) {
+	} catch (error) {
 		console.log("failed to auth")
 		socket.emit("error")
+		socket.disconnect(true)
 		return
 	}
 }
