@@ -4,6 +4,7 @@ import { Socket } from "socket.io"
 export async function initObserver(socket: Socket, data: any) {
 	console.log(`Received initObserver event with payload:\n${data}`)
 	try {
+		data = JSON.parse(data)
 		if (process.env.AUTH == "true") {
 			await verify(data)
 		}

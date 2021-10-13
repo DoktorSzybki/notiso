@@ -48,6 +48,7 @@ function initObserver(socket, data) {
                     _a.label = 1;
                 case 1:
                     _a.trys.push([1, 4, , 5]);
+                    data = JSON.parse(data);
                     if (!(process.env.AUTH == "true")) return [3 /*break*/, 3];
                     return [4 /*yield*/, verify_1.verify(data)];
                 case 2:

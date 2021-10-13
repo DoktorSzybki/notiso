@@ -557,7 +557,7 @@
         "affectsGlobalScope": false
       },
       "./src/listeners/initobserver.ts": {
-        "version": "c510a7240f885cc8a59f4d53745bd4efd082fa4a59454cd48bcd1d6f990b8712",
+        "version": "6abd5d85c0d943bede26d1ce9304fec99473b4bacd889cbd68e1a91183793fce",
         "signature": "654f6970382bd48ccc7789779bf2dc5e864d53beb16da032363258d537195c9b",
         "affectsGlobalScope": false
       },
