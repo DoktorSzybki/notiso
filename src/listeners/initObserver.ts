@@ -11,7 +11,8 @@ export async function initObserver(socket: Socket, data: any) {
 		if ("rooms" in data) {
 			data.rooms.map((room: any) => {
 				if (typeof room == "string") {
-					socket.join(room)
+				socket.join(room)
+				console.log("joined to room: ",room)
 				}
 			})
 		}

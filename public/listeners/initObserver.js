@@ -59,6 +59,7 @@ function initObserver(socket, data) {
                         data.rooms.map(function (room) {
                             if (typeof room == "string") {
                                 socket.join(room);
+                                console.log("joined to room: ", room);
                             }
                         });
                     }

@@ -8,7 +8,7 @@ exports.io = new socket_io_1.Server(exports.httpServer, {
     path: "/socketio/",
     allowEIO3: true,
     cors: {
-        origin: "https://wieltonmobiledev.azureedge.net",
+        origin: true,
         methods: ["GET", "POST"],
         credentials: true
     }
