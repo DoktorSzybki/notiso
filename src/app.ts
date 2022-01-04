@@ -5,12 +5,9 @@ import { initObserver } from "./listeners/initObserver"
 import { Socket } from "socket.io";
 import { EventModel } from "./models/event"
 
-if (!process.env.PORT ||
-	!process.env.REDIS ||
-	!process.env.REDISPORT ||
-	!process.env.AUTHSERVICE) {
-		throw "Missing env variables"
-	}
+if (!process.env.AUTH) {
+	throw "Missing env variables"
+}
 
 io.on("connection", (socket: Socket) => {
 	console.log("New client app connected")

@@ -43,10 +43,7 @@ require("dotenv").config();
 var socketio_1 = require("./connectors/socketio");
 var redis_1 = __importDefault(require("./connectors/redis"));
 var initObserver_1 = require("./listeners/initObserver");
-if (!process.env.PORT ||
-    !process.env.REDIS ||
-    !process.env.REDISPORT ||
-    !process.env.AUTHSERVICE) {
+if (!process.env.AUTH) {
     throw "Missing env variables";
 }
 socketio_1.io.on("connection", function (socket) {

@@ -1,6 +1,6 @@
 import Redis from "ioredis"
 
-const redis = new Redis(parseInt(process.env.REDISPORT!), process.env.REDIS);
+const redis = new Redis(6379, "redis");
 
 redis.subscribe("event", (error, count) => {
 	if (error) {

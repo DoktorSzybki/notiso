@@ -48,7 +48,7 @@ function verify(data) {
             switch (_a.label) {
                 case 0:
                     if (!("token" in data && typeof data.token == "string")) return [3 /*break*/, 2];
-                    return [4 /*yield*/, node_fetch_1.default("https://" + process.env.AUTHSERVICE + "?api_token=" + data.token)];
+                    return [4 /*yield*/, node_fetch_1.default("https://authservice?api_token=" + data.token)];
                 case 1:
                     response = _a.sent();
                     if (response.status != 200) {

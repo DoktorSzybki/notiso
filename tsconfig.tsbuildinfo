@@ -522,7 +522,7 @@
         "affectsGlobalScope": false
       },
       "./src/connectors/socketio.ts": {
-        "version": "35419dc668c690953b722db839e9e8224c6e7cc4af36c71923c9da1a42a30d4f",
+        "version": "8a11331845968149f53257602c594b58e32b72dbddcfb80118819b278f2fec42",
         "signature": "7e8ef3aac92f02ade1d7026f3bb21d1ca5f2e2d7e26a9c7017820bb7dd856b28",
         "affectsGlobalScope": false
       },
@@ -532,7 +532,7 @@
         "affectsGlobalScope": false
       },
       "./src/connectors/redis.ts": {
-        "version": "2f354a27e58a5bb9fb4b661e4b811298b2922e6d015c724af1ed8ff22b11428e",
+        "version": "e25fa1c6df3a064dce71f61c7bb7ba484bd703ff81cc760162fd0e2082cd02bc",
         "signature": "50147b58eef6d91646ffe3a16b7acb586f9837d4c79cd610b5e79f6b47b894ee",
         "affectsGlobalScope": false
       },
@@ -552,7 +552,7 @@
         "affectsGlobalScope": false
       },
       "./src/auth/verify.ts": {
-        "version": "0fa3e157706409d22cccce582d132a237585946f45baac99b10c42c9d38356d6",
+        "version": "b27095ecd3cde522658e6556fbb0af9678f0f67fad3d787795c26b111c2dae49",
         "signature": "dd27ce11b0c1a63d7e48cb37e054fd6e1018af15a352e685bc8c6933bd93001e",
         "affectsGlobalScope": false
       },
@@ -567,7 +567,7 @@
         "affectsGlobalScope": false
       },
       "./src/app.ts": {
-        "version": "261b962a77a399bea5c316e70c738c6f4152960b8124895d6ec6cf4a7a2a9768",
+        "version": "1e785672bc54b192df515f8a1271cdd042846a3f1cb2533bb56cb09c70a903d4",
         "signature": "8c441990eaaead2962a0a76f229ab1a2eef3691cff7d9a98ca656bcd3d643bc1",
         "affectsGlobalScope": false
       },
